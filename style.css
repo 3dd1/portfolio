@@ -1,0 +1,113 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.menu_logo{
+    max-height: 5rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.menu_lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+body{
+    background-color: #000F1F;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    background-image: url();
+}
+.menu_logo:hover{
+    transform: scale(1.1);
+}
+.menu_item{
+    font-family: 'Audiowide', sans-serif;
+    font-size: 24px;
+    color: #DC0073;
+    transition: 0.3s ease-in-out;
+}
+.menu_item:hover{
+    color: #880c4c;
+}
+.menu_curriculo{
+    background-color: #16A3CA ;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.menu_curriculo:hover{
+    background-color: #0c647c;
+}
+.home{
+    background-image: url(https://i.pinimg.com/originals/e7/fc/a4/e7fca41687df365b3f4906a5942bb468.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}  
+.home_infos{
+ background-color: rgba(0, 0, 0, 0.637);
+ height: 60vh;
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ border-radius: 0px 0px 20px 20px;
+ gap: 10px;
+}
+.home_img{
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 450px;
+}
+.home_nome{
+    font-family: 'Audiowide', sans-serif;
+    font-size: 50px;
+    color: #e4e4e4;
+}
+.home_profissao{
+    font-size: 25px;
+    font-family: 'Audiowide', sans-serif;
+    color: #E5D224;
+}
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+.sobre_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sobre_titulo{
+    font-family: 'Audiowide', sans-serif;
+    font-size: 35px;
+    position: relative;
+}
+.sobre_titulo::before{
+    content: "";
+    background-image: url(https://raw.githubusercontent.com/abelardojr0/portfolio-aula/main/img/detalhes/detalhe_duplo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -25px;
+    left: -40px;
+    z-index:-1;
+}
